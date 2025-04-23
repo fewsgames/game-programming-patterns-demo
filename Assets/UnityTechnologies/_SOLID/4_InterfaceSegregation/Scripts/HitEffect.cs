@@ -9,7 +9,7 @@ namespace DesignPatterns.ISP
     public class HitEffect : MonoBehaviour, IEffectTrigger
     {
         [SerializeField] private ParticleSystem m_ParticleSystem;
-        
+
         public void TriggerEffect(Vector3 position)
         {
             // Play the particle system effect if it is not null.
